@@ -1,0 +1,15 @@
+G:\msvprojec\Math Game\bin\Debug\net8.0\Math Game.exe
+G:\msvprojec\Math Game\bin\Debug\net8.0\Math Game.deps.json
+G:\msvprojec\Math Game\bin\Debug\net8.0\Math Game.runtimeconfig.json
+G:\msvprojec\Math Game\bin\Debug\net8.0\Math Game.dll
+G:\msvprojec\Math Game\bin\Debug\net8.0\Math Game.pdb
+G:\msvprojec\Math Game\obj\Debug\net8.0\Math Game.GeneratedMSBuildEditorConfig.editorconfig
+G:\msvprojec\Math Game\obj\Debug\net8.0\Math Game.AssemblyInfoInputs.cache
+G:\msvprojec\Math Game\obj\Debug\net8.0\Math Game.AssemblyInfo.cs
+G:\msvprojec\Math Game\obj\Debug\net8.0\Math Game.csproj.CoreCompileInputs.cache
+G:\msvprojec\Math Game\obj\Debug\net8.0\Math Game.sourcelink.json
+G:\msvprojec\Math Game\obj\Debug\net8.0\Math Game.dll
+G:\msvprojec\Math Game\obj\Debug\net8.0\refint\Math Game.dll
+G:\msvprojec\Math Game\obj\Debug\net8.0\Math Game.pdb
+G:\msvprojec\Math Game\obj\Debug\net8.0\Math Game.genruntimeconfig.cache
+G:\msvprojec\Math Game\obj\Debug\net8.0\ref\Math Game.dll

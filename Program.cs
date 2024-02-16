@@ -1,6 +1,11 @@
 ﻿using System.Collections;
-
+bool gameEnd = false;
 string? option;
+while (!gameEnd)
+{
+    ShowMenu();
+}
+
 void ShowMenu()
 {
     Console.Clear();
@@ -21,7 +26,7 @@ void ShowMenu()
             break;
         case "3":
             Console.WriteLine("BYE");
-            Environment.Exit(1);
+            gameEnd = true;
             break;
         default:
             ShowMenu();
@@ -32,6 +37,9 @@ void ShowMenu()
 
 void ChooseGame() 
 {
+    Console.Clear();
+    Console.WriteLine("MATH GAME");
+    Console.WriteLine("----------\n");
     Console.WriteLine("Choose a game: ");
     Console.WriteLine("1. Addition");
     Console.WriteLine("2. Subtraction");
