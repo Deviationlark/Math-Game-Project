@@ -1,0 +1,5 @@
+G:\msvprojec\Math Game\bin\Release\net8.0\publish\Math Game.exe
+G:\msvprojec\Math Game\bin\Release\net8.0\publish\Math Game.dll
+G:\msvprojec\Math Game\bin\Release\net8.0\publish\Math Game.deps.json
+G:\msvprojec\Math Game\bin\Release\net8.0\publish\Math Game.runtimeconfig.json
+G:\msvprojec\Math Game\bin\Release\net8.0\publish\Math Game.pdb
