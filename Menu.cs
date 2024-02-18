@@ -131,6 +131,7 @@ namespace MathGame
             Console.WriteLine("1. Easy");
             Console.WriteLine("2. Medium");
             Console.WriteLine("3. Hard");
+            Console.WriteLine("4. Impossible");
             result = Console.ReadLine();
 
             result = Helpers.ValidateResult(result);

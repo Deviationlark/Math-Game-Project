@@ -42,7 +42,7 @@ namespace MathGame
 
             Console.WriteLine($"The End. You scored {points} points. Press enter to go back to main menu.");
             Console.ReadLine();
-            Helpers.AddToHistory(GameType.Addition, points);
+            Helpers.AddToHistory(GameType.Addition, points, difficulty);
         }
 
         internal void SubtractionGame()
@@ -83,7 +83,7 @@ namespace MathGame
 
             Console.WriteLine($"The End. You scored {points} points. Press enter to go back to main menu.");
             Console.ReadLine();
-            Helpers.AddToHistory(GameType.Subtraction, points);
+            Helpers.AddToHistory(GameType.Subtraction, points, difficulty);
         }
 
         internal void MultiplicationGame()
@@ -124,7 +124,7 @@ namespace MathGame
 
             Console.WriteLine($"The End. You scored {points} points. Press enter to go back to main menu.");
             Console.ReadLine();
-            Helpers.AddToHistory(GameType.Multiplication, points);
+            Helpers.AddToHistory(GameType.Multiplication, points, difficulty);
         }
 
         internal void DivisionGame()
@@ -163,7 +163,7 @@ namespace MathGame
 
             Console.WriteLine($"The End. You scored {points} points. Press enter to go back to main menu.");
             Console.ReadLine();
-            Helpers.AddToHistory(GameType.Division, points);
+            Helpers.AddToHistory(GameType.Division, points, difficulty);
         }
 
         internal void RandomGame()
@@ -282,7 +282,7 @@ namespace MathGame
             }
             Console.WriteLine($"The End. You scored {points} points. Press enter to go back to main menu.");
             Console.ReadLine();
-            Helpers.AddToHistory(GameType.Random, points);
+            Helpers.AddToHistory(GameType.Random, points, difficulty);
         }
     }
 }

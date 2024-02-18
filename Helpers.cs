@@ -45,19 +45,39 @@ internal class Helpers
                 case "3":
                     Numbers[0] = random.Next(1, 1000);
                     Numbers[1] = random.Next(1, 1000);
-                    break;         
+                    break;
+                case "4":
+                    Numbers[0] = random.Next(1, 10000);
+                    Numbers[1] = random.Next(1, 10000);
+                    break;
             }
 
         }
         return Numbers;
     }
     // Adds the games to the list of games history
-    internal static void AddToHistory(GameType gamemode, int points)
+    internal static void AddToHistory(GameType gamemode, int points, string difficulty)
     {
+        switch (difficulty)
+        {
+            case "1":
+                difficulty = "Easy";
+                break;
+            case "2":
+                difficulty = "Medium";
+                break;
+            case "3":
+                difficulty = "Hard";
+                break;
+            case "4":
+                difficulty = "Impossible";
+                break;
+        }
         games.Add(new Game
         {
             Score = points,
-            Mode = gamemode
+            Mode = gamemode,
+            difficulty = difficulty
         });
     }
     // Shows the history
@@ -69,7 +89,7 @@ internal class Helpers
         Console.WriteLine("HISTORY");
         foreach (var game in games)
         {
-            Console.WriteLine($"{game.Mode} - {game.Score}pts");
+            Console.WriteLine($"{game.Mode} - {game.difficulty} - {game.Score}pts");
         }
         Console.ReadLine();
     }
@@ -101,6 +121,10 @@ internal class Helpers
             case "3":
                 Numbers[0] = random.Next(1, 1000);
                 Numbers[1] = random.Next(1, 1000);
+                break;
+            case "4":
+                Numbers[0] = random.Next(1, 10000);
+                Numbers[1] = random.Next(1, 10000);
                 break;
         }
         return Numbers;
