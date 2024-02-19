@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\msvprojec\\Math Game\\Math Game.csproj",
+      "projectUniqueName": "C:\\Users\\petar\\Desktop\\git\\MathGame.Deviationlark\\MathGame.Deviationlark\\Math Game.csproj",
       "projectName": "Math Game",
-      "projectPath": "G:\\msvprojec\\Math Game\\Math Game.csproj",
+      "projectPath": "C:\\Users\\petar\\Desktop\\git\\MathGame.Deviationlark\\MathGame.Deviationlark\\Math Game.csproj",
       "packagesPath": "C:\\Users\\petar\\.nuget\\packages\\",
-      "outputPath": "G:\\msvprojec\\Math Game\\obj\\",
+      "outputPath": "C:\\Users\\petar\\Desktop\\git\\MathGame.Deviationlark\\MathGame.Deviationlark\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\petar\\AppData\\Roaming\\NuGet\\NuGet.Config"

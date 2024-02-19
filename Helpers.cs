@@ -126,6 +126,10 @@ internal class Helpers
                 Numbers[0] = random.Next(1, 10000);
                 Numbers[1] = random.Next(1, 10000);
                 break;
+            default:
+                Numbers[0] = random.Next(1, 10);
+                Numbers[1] = random.Next(1, 10);
+                break;
         }
         return Numbers;
     }
