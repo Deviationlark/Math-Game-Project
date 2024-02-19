@@ -14,7 +14,7 @@ namespace MathGame
                 Console.WriteLine("1. Play");
                 Console.WriteLine("2. History");
                 Console.WriteLine("3. Exit");
-                Console.Write("Choose an option: ");
+                Console.Write("Choose an option:");
                 result = Console.ReadLine();
 
                 result = Helpers.ValidateResult(result);
